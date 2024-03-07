@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* Header_Strat ===========================================*/
+header{
+    width: 100%;
+    height:50px;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+   
+}
+ 
+ header .logo{
+    margin-left: 75px;
+    padding:18px
+ }
+ 
+header div{
+   float: left;
+}
+  
+header .nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-right:100px;
+}
+ header .nav ul{
+    list-style: none;
+ }
+ header .nav ul li{
+     float: left;
+     padding: 10px;
+ }
+ header .nav ul li a{ 
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#042f2e;
+    font-size: 17px;
+    font-weight: bold;
+ }
+ header .nav ul li a:hover{
+    color:rgb(202, 8, 8); 
+    text-decoration: underline;
+ }
+ 
+#check{
+  display:none;
+}
+.checkbtn{
+  display:none;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+}
+
+
+ /* Header_End =========================================================*/
+ 
+ /* Section One Strat ===================================================*/
+    
+ .section1{
+    background-color:#f5f5fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+ }
+ .half1, .half2{
+  width: 50%;
+ }
+ .half1{
+    margin-left: 100px;
+    margin-bottom:100px;
+ }
+.half2{
+    padding-right: 50px;
+}
+.half2 img{
+  max-width: 100%;
+  height: auto;
+}
+
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.half1 p{
+    color:gray;
+    line-height: 22px;
+    text-align: justify;
+    margin-right: 20px;
+}
+.half1 input{
+    background-color: aqua;
+    padding:15px;
+    font-weight: bolder;
+    font-size: 15px;
+    color:rgb(54, 52, 52);
+    border-radius: 25px;
+    outline: none;
+}
+.half1 input:hover{
+    background-color: #042f2e;
+    color:#db2777;
+    border:1px solid #1c1917;
+}
+ /* Section One End ==========================================*/
+
+ /* Section Two Strat ==========================================*/
+ .section2{
+    background-color:#f5f5fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:500px;
+  }
+  .half3 img{
+    margin-left:95px;
+  }
+   
+  .half4{
+    margin-left: 90px;
+    
+  }
+  .half4 p{
+    margin-right:125px;
+     text-align: justify;
+     color:gray;
+     line-height: 22px;
+  }
+
+  .half4 h3{
+    font-weight: normal;
+  }
+
+  .half4 h1{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .half4 input{
+    background-color: aqua;
+    padding:15px;
+    font-weight: bolder;
+    font-size: 15px;
+    color:rgb(54, 52, 52);
+    border-radius: 25px;
+    outline: none;
+}
+.half4 input:hover{
+  background-color: #042f2e;
+  color:#db2777;
+  border:1px solid #1c1917;
+}
+ /* Section Two End ============================================*/
+
+  /* Section Three Strat======================================== */
+    .section3 .header-text{
+      width:50%;
+      height: 0 auto;
+      margin:0 auto;
+      text-align:center;
+      margin-top:50px;
+      
+     
+    }
+    .header-text h1{
+      font-size:30px;
+      font-weight: bold;
+      line-height: 20px;
+
+    }
+    .header-text h1:hover{
+       color:hotpink;
+    }
+
+    .header-text p{
+      color:gray;
+    }
+
+    .services-section{
+     width:91%;
+     height:0 auto;
+     margin: 74px;
+     padding-top:50px;
+     overflow: hidden;
+     
+    }
+
+    .services-section .text1{
+      width:30%;
+      text-align: center;
+      float: left;
+     
+    }
+    .services-section .text1 p{
+      line-height:23px;;
+    }
+    .text1{
+      padding:18px;
+      
+    }
+    .text1:hover{
+      background-color:#047857;
+      color:white;
+      border-radius: 10px;
+      
+    }
+     .text1 i{
+     font-size: 70px;
+    }
+    .text h3{
+
+    }
+    .text p{
+      color:gray;
+    }
+    
+  /* Section Three End ============================================*/
+
+  /* Section Fouth Strat=========================================== */
+  .section4{
+   width:100%;
+   height: 300px;
+   overflow: hidden;
+   background-color: #047857;
+   color:white;
+   margin-bottom: 100px;
+  }
+  .section4 div{
+    width:17%;
+    float: left;
+    margin-top:110px;
+    margin-left:80px;
+  }
+ .section4 h1{
+  text-align: center;
+  line-height: 10px;
+ }
+ .section4 h1:hover{
+   color:#042f2e;
+   font-size: 30px;
+   font-weight: bold;
+ }
+ .section4 p{
+  text-align: center;
+ }
+
+  /* Section Fouth End ===========================================*/
+
+  
+  /* Section Fith Strat ===========================================*/
+  
+    .section5{
+       width:100%;
+       box-sizing: border-box;
+    }
+.section5 .text2{
+  text-align: center;
+
+}
+.section5 .text2 h1{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+   
+}
+.section5 .text2 p{
+   margin-top:-10px;
+   margin-bottom:60px;
+}
+.section5 .imgg{
+  width:85%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.section5 .imgg div{
+  width: 340px;
+  height: 339px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.section5 .imgg h1{
+  font-size: 20px;
+  color: rgba(0,0,0,0.9);
+}
+.section5 .imgg h1:hover{
+  font-style:italic;
+  color:#042f2e;
+}
+
+.section5 .imgg p{
+  color: rgba(0,0,0,0.7);
+  line-height: 0;
+}
+.section5 figure{
+  background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+  width: 340px;
+  height: 339px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 3%;
+}
+.section5 figure:hover img{
+  opacity: .3;
+  transition: all .3s ease-in-out;
+}
+/* Section Fith End  =========================================================*/
+
+
+/* Section Six End ===========================================================*/
+
+  .section6{
+    width:100%;
+    height:auto;
+    margin-top: 80px;
+    
+   
+  }
+ .section6 .text3{
+   text-align: center;
+   line-height:9px;
+ }
+
+.section6 .text3 h1{
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.section6 .card{
+  width:85%;
+  display:flex;
+  justify-content:space-around;
+  margin:0 auto;
+  padding:50px 50px;
+}
+
+ 
+.section6 .card-1{
+  width:220px;
+  height:440px;
+  padding:25px 20px;
+  text-align: center;
+  background-color:rgb(249, 249, 255);
+  border:1px solid rgba(0,0,0,0.1);
+  
+  
+}
+.section6 .card-1 h1{
+  width:60px;
+  height:50px;
+  font-size: 30px;
+  background-color: rgb(236, 226, 226);
+  margin:0 auto;
+  padding-top: 12px;
+  border-radius: 50%;
+  color:white;
+}
+.section6 .card-1:hover p{ 
+  color:white;
+}
+.section6 .card-1:hover h2{ 
+  color:white;
+}
+
+.section6 .card-1 input{
+  width:130px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section6 .card-1:hover input{
+  color:hsl(163, 94%, 45%);
+  transition: all 1s ease-in-out;
+  border: none;
+  border-radius: 5px;
+}
+
+.section6 .card-1:hover{
+  background-color: #172554;
+  box-shadow: 2px 6px 8px 2px;
+  transition: all 1s ease-in-out;
+  transform: scale(1.02);
+  border:1px solid rgb(130, 147, 255, 0.5);
+  border-radius: 5px;
+}
+/* Section Six End ========================================================= */
+
+/*Footer Start===============================================================*/
+
+footer{
+   width:100%;
+   height: auto;
+   background-color: #042f2e;
+   margin:50px 00;
+  
+}
+
+ footer .foot{
+    width:86%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding:50px 180px;
+     color:rgb(164, 168, 172)
+ }
+.footer1 p{
+  width:350px;
+}
+.foot .footer1 h1{
+  color:#f5f5fc;
+}
+.foot .footer1 input{
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background: gray;
+  outline: none;
+  border:none;
+  padding:5px 10px;
+}
+.foot .footer1 i{
+   font-size: 30px;
+   padding:00 10px
+}
+.foot .footer1 i:hover{
+   color:white;
+   
+}
+
+
+/*Footer End===============================================================*/
+
+
+
+ 
